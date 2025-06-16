@@ -1,0 +1,166 @@
+/* === Produtos === */
+.product-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.product-container {
+  border: 2px solid #3498db;
+  padding: 1.5rem;
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.catalog {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  width: 250px;
+  text-align: center;
+}
+
+.product-card h3 {
+  color: #007bff;
+}
+
+.product-card p {
+  font-size: 1rem;
+  color: #333;
+}
+
+/* === Pizza e Carrinho === */
+.pizza-container,
+.cart-summary {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.pizza-container {
+  background-color: #f8c471;
+}
+
+.cart-summary {
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.pizza-description {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+/* === Perfis === */
+.user-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f8f9fa;
+}
+
+.user-avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.user-name {
+  font-size: 1.5rem;
+  color: #007bff;
+}
+
+.user-bio {
+  font-size: 1.2rem;
+  text-align: center;
+  color: #333;
+}
+
+/* === Mensagens === */
+.message,
+.message-info,
+.message-alert,
+.message-success {
+  font-size: 1.2rem;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.message {
+  background-color: lightgray;
+}
+
+.message-info {
+  background-color: #3498db;
+  color: white;
+}
+
+.message-alert {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.message-success {
+  background-color: #2ecc71;
+  color: white;
+}
+
+/* === Botões === */
+button {
+  font-size: 1.2rem;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  background-color: #3498db;
+  color: white;
+}
+
+button:hover {
+  background-color: #217dbb;
+}
+
+button.black {
+  background-color: black;
+}
+
+button.black:hover {
+  background-color: gray;
+}
+
+.primary-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.primary-btn:hover {
+  background-color: #0056b3;
+}
+
+.button-container {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}

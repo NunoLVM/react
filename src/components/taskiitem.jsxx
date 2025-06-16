@@ -1,0 +1,22 @@
+function App() {
+
+
+const taches = [
+    id: 1,
+    title: "faire le mange",
+},
+{
+    id: 2,
+    title: "faire le mange",
+},
+
+];
+
+return (
+    <div>
+    {taches.map((tache)=> {
+        return, <taskitem id={tache.id} title={tache.title} key={tache.id} />
+    })}
+    </div>
+);
+}
